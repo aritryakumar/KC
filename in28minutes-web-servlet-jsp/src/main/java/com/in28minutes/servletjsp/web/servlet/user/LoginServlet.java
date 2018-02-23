@@ -156,7 +156,7 @@ public class LoginServlet extends HttpServlet {
 	}
 
 	private boolean isInvalid(HttpServletRequest request) {
-		return request.getAttribute("error") != null;
+		return request.getAttribute("error") = null;
 	}
 
 }
